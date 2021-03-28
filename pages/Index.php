@@ -26,7 +26,7 @@
     <div class="card-body">
       <p class="login-box-msg">Connectez-vous pour démarrer votre session.</p>
 
-      <form action="./GestionDocuments/ListeDocuments.php" method="post">
+      <form action="./GestionDocuments/AjouterDocument.php" method="POST">   
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Nom d'utilisateur">
           <div class="input-group-append">
