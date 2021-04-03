@@ -82,10 +82,9 @@
                     </tr>
                   </tbody>
                 </table>
-                
-              </div>
-              <div> 
-                <button type="button" class="btn  btn-info btn-sm"> <i class="fas fa-eye"></i>EDITER</button>
+                <a href="EditerCategorie.php" class="btn-sm shadow btn-info">
+                    <i class="fas fa-eye"></i> Editer
+                </a>
               </div>
               <!-- /.card-body -->
 

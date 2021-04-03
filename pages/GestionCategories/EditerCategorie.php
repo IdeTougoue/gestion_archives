@@ -7,33 +7,38 @@
       <div class="container-fluid">
         <section>
         <div class="form-group">
-                <label for="inputName">NOm de la catégorie</label>
-                <input type="text" id="inputName" class="form-control" value="AdminLTE">
+                <label for="inputName">Nom de la catégorie</label>
+                <input type="text" id="inputName" class="form-control" value="Marché du...">
               </div>
               <div class="form-group">
-                <label for="inputDescription">Project Description</label>
+                <label for="inputDescription">Description du projet </label>
                 <textarea id="inputDescription" class="form-control" rows="4"  placeholder="entrer les details"> </textarea>
               </div>
               <div class="form-group">
-                <label for="inputStatus">Status</label>
+                <label for="inputStatus">statut du projet</label>
                 <select id="inputStatus" class="form-control custom-select">
-                  <option disabled>Select one</option>
-                  <option>On Hold</option>
-                  <option>Canceled</option>
-                  <option selected>Success</option>
+                  <option disabled>choisir un élément de la liste</option>
+                  <option>En attente </option>
+                  <option>En cours</option>
+                  <option selected>Bouclé</option>
                 </select>
               </div>
               <div class="form-group">
-                <label for="inputClientCompany">Client Company</label>
-                <input type="text" id="inputClientCompany" class="form-control" value="Deveint Inc">
+                <label for="inputClientCompany">Secteur concerné</label>
+                <input type="text" id="inputSector" class="form-control" value="information sur la structure concernée">
               </div>
               <div class="form-group">
-                <label for="inputProjectLeader">Project Leader</label>
-                <input type="text" id="inputProjectLeader" class="form-control" value="Tony Chicken">
+                <label for="inputProjectLeader">Chef de projet</label>
+                <input type="text" id="inputProjectLeader" class="form-control" value="Fiscagest">
               </div>
             </div>
+            <div class="row">
+            <div class="col-12">
+              <a href="ListeCategories.php" class="btn btn-secondary">Annuler</a>
+              <input type="submit" value="Save Changes" class="btn btn-success float-right">
+            </div>
+            </div>
         </section>
-
 
 
       </div> 

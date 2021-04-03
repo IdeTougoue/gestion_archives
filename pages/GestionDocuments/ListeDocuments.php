@@ -72,16 +72,16 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                   </tbody>
                 </table>

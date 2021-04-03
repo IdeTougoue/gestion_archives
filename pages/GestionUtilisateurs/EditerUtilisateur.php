@@ -7,34 +7,35 @@
       <div class="container-fluid">
       <section>
         <div class="form-group">
-                <label for="inputName">NOm de la catégorie</label>
-                <input type="text" id="inputName" class="form-control" value="AdminLTE">
+                <label for="inputName">Nom de l'utilisateur</label>
+                <input type="text" id="inputName" class="form-control" value="Nom de l'utilisateur">
               </div>
               <div class="form-group">
-                <label for="inputDescription">Project Description</label>
-                <textarea id="inputDescription" class="form-control" rows="4"  placeholder="entrer les details"> </textarea>
-              </div>
-              <div class="form-group">
-                <label for="inputStatus">Status</label>
+                <label for="inputPoste">poste</label>
                 <select id="inputStatus" class="form-control custom-select">
-                  <option disabled>Select one</option>
-                  <option>On Hold</option>
-                  <option>Canceled</option>
-                  <option selected>Success</option>
+                  <option disabled>choisir un poste</option>
+                  <option>consultant fiscal </option>
+                  <option>consultant comptable</option>
+                  <option selected>secrétaire</option>
+                </select>
+               </div>
+              <div class="form-group">
+                <label for="inputStatus">statut de l'utilisateur </label>
+                <select id="inputStatus" class="form-control custom-select">
+                  <option disabled>choisir le statut</option>
+                  <option>Administrateur </option>
+                  <option selected>simple utilisateur</option>
                 </select>
               </div>
-              <div class="form-group">
-                <label for="inputClientCompany">Client Company</label>
-                <input type="text" id="inputClientCompany" class="form-control" value="Deveint Inc">
-              </div>
-              <div class="form-group">
-                <label for="inputProjectLeader">Project Leader</label>
-                <input type="text" id="inputProjectLeader" class="form-control" value="Tony Chicken">
-              </div>
+           
             </div>
-        
-
-
+            <div class="row">
+            <div class="col-12">
+              <a href="ListeUtilisateurs.php" class="btn btn-secondary">Annuler</a>
+              <input type="submit" value="Save Changes" class="btn btn-success float-right " >
+            </div>
+            </div>
+        </section>
 
       </div> 
       <!-- /.conteneur-fluide -->
