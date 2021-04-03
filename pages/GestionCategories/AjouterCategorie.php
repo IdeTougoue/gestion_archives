@@ -7,7 +7,7 @@
       <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1>AJOUTER UN DOCUMENT</h1>
+          <h1>AJOUTER UNE CATEGORIE </h1>
         </div>
       </div>
     </div><!-- /.container-fluid -->
@@ -32,18 +32,7 @@
                 <label for="exampleInputDetail">Details</label>
                 <input type="text" class="form-control" id="exampleInputDetails" placeholder="details">
               </div>
-              <div class="form-group">
-                <label for="exampleInputFile">Catégorie</label>
-                <div class="input-group">
-                  <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                    <label class="custom-file-label" for="exampleInputFile">Choisir une catégorie</label>
-                  </div>
-                  <div class="input-group-append">
-                    <span class="input-group-text">Upload</span>
-                  </div>
-                </div>
-              </div>
+             
             </div>
             <!-- /.card-body -->
 

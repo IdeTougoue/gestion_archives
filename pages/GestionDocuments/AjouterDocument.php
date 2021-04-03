@@ -32,8 +32,18 @@
                 <input type="text" class="form-control" id="exampleInputDetails" placeholder="details">
               </div>
               <div class="form-group">
-                <label for="exampleInputFile">Dossier</label>
-                
+                <label for="exampleInputFile">Catégorie </label>
+                <div class="form-group">
+                  <select class="form-control select2" style="width: 100%; " placeholder="Selectionner une Catégorie">
+                    <option selected="selected">marché bouclé</option>
+                    <option>projet </option>
+                    <option>Marché</option>
+                    <option>Appel d'offre</option>
+                    <option>dossier fiscal</option>
+                    <option>dossiers de soumission d'appel d'offre</option>
+                    <option>Marché en cours</option>
+                  </select>
+                </div>
               </div>
             </div>
             <!-- /.card-body -->

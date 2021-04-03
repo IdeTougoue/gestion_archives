@@ -85,6 +85,9 @@
                     </tr>
                   </tbody>
                 </table>
+                <a href="EditerDocument.php" class="btn-sm shadow btn-info">
+                    <i class="fas fa-eye"></i> Editer
+                  </a>
               </div>
               <!-- /.card-body -->
 

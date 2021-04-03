@@ -61,7 +61,7 @@
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th>profil de l'utilisateur</th>
+                      <th>Date</th>
                       <th>Noms </th>
                       <th>prenoms</th>
                       <th>poste</th>
@@ -69,19 +69,22 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                     <tr>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
-                      <td>Update software</td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
+                      <td> </td>
                     </tr>
                   </tbody>
                 </table>
+                <a href="EditerUtilisateur.php" class="btn-sm shadow btn-info">
+                    <i class="fas fa-eye"></i> Editer
+                  </a>
               </div>
               <!-- /.card-body -->
 
