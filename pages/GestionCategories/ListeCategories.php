@@ -19,7 +19,7 @@
         <div class="col-md-12 row">
           <div class="col-sm-6 col-12">
               <div class="info-box">
-                <span class="info-box-icon bg-info"><i class="far fa-file"></i></span>
+                <span class="info-box-icon bg-secondary"><i class="far fa-file"></i></span>
 
                 <div class="info-box-content">
                   <span class="info-box-text">Nombre de documents</span>
@@ -62,8 +62,8 @@
                   <thead>
                     <tr>
                       <th>Nom de la catégorie</th>
-                      <th>Nombre de documents</th>
-                      <th>D</th>
+                      <th>Détails</th>
+                      <th>Nombres de documents</th>
                       <th>Date de création</th>
                     </tr>
                   </thead>
@@ -82,9 +82,10 @@
                     </tr>
                   </tbody>
                 </table>
-                <a href="EditerCategorie.php" class="btn-sm shadow btn-info">
-                    <i class="fas fa-eye"></i> Editer
-                  </a>
+                
+              </div>
+              <div> 
+                <button type="button" class="btn  btn-info btn-sm"> <i class="fas fa-eye"></i>EDITER</button>
               </div>
               <!-- /.card-body -->
 

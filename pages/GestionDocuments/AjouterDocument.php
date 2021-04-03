@@ -49,7 +49,9 @@
             <!-- /.card-body -->
 
             <div class="card-footer">
-              <button type="submit" class="btn btn-primary">OK</button>
+              <td>
+                <button type="button" class="btn  btn-primary btn-lg">Enregistrer</button>
+              </td>
             </div>
           </form>
         </div>
