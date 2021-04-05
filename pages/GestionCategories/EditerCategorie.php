@@ -35,7 +35,8 @@
             <div class="row">
             <div class="col-12">
               <a href="ListeCategories.php" class="btn btn-secondary">Annuler</a>
-              <input type="submit" value="Save Changes" class="btn btn-success float-right">
+              <button type="submit"  class="btn btn-success float-right"> save changes </button>
+
             </div>
             </div>
         </section>
