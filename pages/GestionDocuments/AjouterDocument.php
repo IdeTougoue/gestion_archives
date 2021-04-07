@@ -21,20 +21,20 @@
           </div>
           <!-- /.card-header -->
           <!-- form start -->
-          <form>
+          <form method = "POST">
             <div class="card-body">
               <div class="form-group col-md-4">
                 <label for="exampleInputName">Nom du document</label>
-                <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
+                <input type="text" name="nom" class="form-control" id="exampleInputName" placeholder="Enter name">
               </div>
               <div class="form-group">
                 <label for="exampleInputDetail">Details</label>
-                <input type="text" class="form-control" id="exampleInputDetails" placeholder="details">
+                <input type="text" name="details" class="form-control" id="exampleInputDetails" placeholder="details">
               </div>
               <div class="form-group">
                 <label for="exampleInputFile">Catégorie </label>
                 <div class="form-group">
-                  <select class="form-control select2" style="width: 100%; " placeholder="Selectionner une Catégorie">
+                  <select name="categorie" class="form-control select2" style="width: 100%; " placeholder="Selectionner une Catégorie">
                     <option selected="selected">marché bouclé</option>
                     <option>projet </option>
                     <option>Marché</option>
@@ -50,10 +50,23 @@
 
             <div class="card-footer">
               <td>
-                <button type="button" class="btn  btn-primary btn-lg">Enregistrer</button>
+                <button type="submit" name = "save" class="btn  btn-primary btn-lg">Enregistrer</button>
               </td>
             </div>
           </form>
+          <?php
+            include "database.php";
+            global $db;
+
+            if(isset($_POST["save"])){
+              extract($_POST);
+
+              if(!empty($nom) && !empty($detail) && !empty($categorie)){
+                $q = $db->prepare("INSERT INTO ")
+              }
+            }
+
+          ?>
         </div>
         <!-- /.card -->
 
