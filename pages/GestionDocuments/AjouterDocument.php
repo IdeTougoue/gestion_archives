@@ -54,19 +54,8 @@
               </td>
             </div>
           </form>
-          <?php
-            include "database.php";
-            global $db;
-
-            if(isset($_POST["save"])){
-              extract($_POST);
-
-              if(!empty($nom) && !empty($detail) && !empty($categorie)){
-                $q = $db->prepare("INSERT INTO ")
-              }
-            }
-
-          ?>
+        
+          
         </div>
         <!-- /.card -->
 

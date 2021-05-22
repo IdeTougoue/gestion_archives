@@ -27,7 +27,15 @@
             <a href="../GestionDocuments/ListeDocuments.php" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-               Documents
+               Dossiers d'hébergement
+              </p>
+            </a>  
+          </li>
+          <li class="nav-item">
+            <a href="../GestionAppartement/ListeApparts.php" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                 Appartements
               </p>
             </a>  
           </li>
@@ -35,7 +43,31 @@
             <a href="../GestionCategories/ListeCategories.php" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
-                Categories
+                   Catégorie d'hébergement
+              </p>
+            </a>  
+          </li>
+          <li class="nav-item">
+            <a href="../GestionEmployes/ListeEmployes.php" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                   personnels 
+              </p>
+            </a>  
+          </li>
+          <li class="nav-item">
+            <a href="../GestionReservations/ListeReservations.php" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                   Reservations
+              </p>
+            </a>  
+          </li>
+          <li class="nav-item">
+            <a href="../GestionSalaire/ListeSalaires.php" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                   Salaires des employés
               </p>
             </a>  
           </li>
@@ -47,7 +79,14 @@
               </p>
             </a>  
           </li>
-        
+          <li class="nav-item">
+            <a href="../VisitesTouristiques/CalendrierVisites.php" class="nav-link">
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                visites touristiques
+              </p>
+            </a>  
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
